@@ -1,0 +1,15 @@
+name: Poster Upload
+
+on:
+  push:
+    paths:
+      - 'posters/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Poster uploaded message
+        run: echo "Poster Uploaded Successfully"
