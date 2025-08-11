@@ -1,8 +1,8 @@
 # Contributing
 
-Branch naming:
-- feature/poster-<yourname>
-- fix/poster-feedback-<shortdesc>
+Branch naming:hackathon team
+- feature/poster-web based application
+- fix/poster-feedback-It enhanced my ability for self adaptivity and helped me iin learning lot of tools 
 
 PR Checklist:
 - [ ] Poster file added to `posters/`
